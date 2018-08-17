@@ -48,7 +48,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('images', function() {
-    gulp.src('source/img/*')
+    gulp.src('source/img/*/*')
         .pipe(images())
         .pipe(gulp.dest('build/assets/img'));
 });
