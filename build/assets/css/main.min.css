@@ -181,6 +181,12 @@ td,
 th {
   padding: 0; }
 
+.arrow_hover {
+  transition: all .3s ease; }
+
+#arrow_down:hover .arrow_hover {
+  fill: #A5B452; }
+
 html {
   box-sizing: border-box; }
 
