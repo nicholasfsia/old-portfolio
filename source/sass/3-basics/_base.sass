@@ -13,8 +13,6 @@ html
 body
   //delete the background to apply your own style
   background-color: $offwhite
-  line-height: 1.4
-  font-size: 20px
   color: $darkgrey
   -webkit-font-smoothing: antialiased
   -webkit-text-size-adjust: 100%
@@ -32,9 +30,10 @@ body
   grid-column-gap: 40px
   grid-template-columns: repeat(12, 1fr)
   grid-template-rows: auto
-  @media only screen and (max-width: 777px)
-    grid-template-columns: repeat(4, 1fr)
-
+  @media only screen and (max-width: 768px)
+    grid-column-gap: 16px
+    margin-left: 16px
+    margin-right: 16px
 
 
 
