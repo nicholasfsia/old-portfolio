@@ -339,6 +339,9 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.5;
   margin-left: 16px;
   margin-right: 16px; }
+  @media only screen and (max-width: 425px) {
+    .nav_project_text {
+      display: none; } }
 
 .align_right {
   text-align: right; }
@@ -375,6 +378,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   margin: 0;
   display: block; }
+  @media only screen and (max-width: 425px) {
+    .thumb_title {
+      font-size: 36px; } }
 
 .thumb_blurb {
   color: #f7f7f7;
@@ -382,6 +388,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-size: 24px;
   line-height: 1.6; }
+  @media only screen and (max-width: 425px) {
+    .thumb_blurb {
+      font-size: 18px; } }
 
 .huge, h1 {
   font-size: 48px;
@@ -433,6 +442,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   margin-bottom: 32px;
   display: block; }
+  @media only screen and (max-width: 425px) {
+    .project_blurb {
+      line-height: 37px;
+      font-size: 22px; } }
 
 .caption {
   color: #333;
@@ -451,6 +464,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 27px;
   font-size: 16px;
   opacity: 0.6; }
+  @media only screen and (max-width: 425px) {
+    .img_caption {
+      display: block;
+      margin-bottom: 48px; } }
 
 p {
   font-family: 'Cormorant Garamond', serif;
@@ -490,12 +507,24 @@ nav {
   margin-right: auto; }
 
 .nav_left {
-  margin-left: 120px;
+  margin-left: 40px;
   width: 200px; }
+  @media only screen and (max-width: 425px) {
+    .nav_left {
+      margin-left: 16px; } }
 
 .nav_right {
-  margin-right: 120px;
+  margin-right: 40px;
   width: 200px; }
+  @media only screen and (max-width: 425px) {
+    .nav_right {
+      margin-right: 16px; } }
+  .nav_right .nav_project_text {
+    margin-left: auto; }
+
+@media only screen and (max-width: 425px) {
+  .right_arrow {
+    margin-left: auto; } }
 
 .nav_link {
   text-decoration: none; }
@@ -720,9 +749,15 @@ nav {
 
 #remove_margin_right {
   margin-right: 0; }
+  @media only screen and (max-width: 425px) {
+    #remove_margin_right {
+      margin-right: 16px; } }
 
 #top {
   margin-top: 96px; }
+  @media only screen and (max-width: 425px) {
+    #top {
+      margin-top: 60px; } }
 
 .top_img {
   width: 100%;
@@ -730,6 +765,9 @@ nav {
 
 .project_desc {
   grid-column: 2 / span 3; }
+  @media only screen and (max-width: 425px) {
+    .project_desc {
+      grid-column: 1 / span 12; } }
 
 #img_top {
   grid-column: 5 / span 8;
@@ -737,19 +775,37 @@ nav {
   align-items: center;
   justify-content: center;
   overflow: hidden; }
+  @media only screen and (max-width: 425px) {
+    #img_top {
+      grid-column: 1 / span 12; } }
 
 #content {
-  margin-top: 156px; }
+  margin-top: 156px;
+  margin-bottom: 160px; }
+  @media only screen and (max-width: 425px) {
+    #content {
+      margin-top: 72px;
+      margin-bottom: 80px; } }
 
 .content_block {
   margin-bottom: 60px;
   grid-column: 5 / span 7; }
+  @media only screen and (max-width: 425px) {
+    .content_block {
+      grid-column: 1 / span 12;
+      margin-bottom: 48px; } }
 
 .content_subblock {
   margin-bottom: 32px; }
+  @media only screen and (max-width: 425px) {
+    .content_subblock {
+      margin-bottom: 20px; } }
 
 .img_caption_container {
   grid-column: 10 / span 2; }
+  @media only screen and (max-width: 425px) {
+    .img_caption_container {
+      grid-column: 1 / span 12; } }
 
 .img_project {
   width: 100%; }
@@ -761,12 +817,19 @@ nav {
   justify-content: center;
   overflow: hidden;
   margin-bottom: 36px; }
+  @media only screen and (max-width: 425px) {
+    .img_project_container {
+      grid-column: 1 / span 12;
+      margin-bottom: 12px; } }
 
 .above_img {
-  margin-bottom: 12px; }
+  margin-bottom: 14px; }
 
 .above_h2 {
   margin-bottom: 60px; }
+
+.p_above_img {
+  margin-bottom: 36px; }
 
 .img_small {
   width: 100%;
@@ -775,16 +838,28 @@ nav {
 .img_small_left {
   grid-column: 2 / span 3;
   margin-bottom: 24px; }
+  @media only screen and (max-width: 425px) {
+    .img_small_left {
+      grid-column: 1 / span 12; } }
 
 .img_small_caption_left {
   grid-column: 5 / span 3; }
+  @media only screen and (max-width: 425px) {
+    .img_small_caption_left {
+      grid-column: 1 / span 12; } }
 
 .img_small_right {
   grid-column: 6 / span 3;
   margin-bottom: 24px; }
+  @media only screen and (max-width: 425px) {
+    .img_small_right {
+      grid-column: 1 / span 12; } }
 
 .img_small_caption_right {
   grid-column: 9 / span 3; }
+  @media only screen and (max-width: 425px) {
+    .img_small_caption_right {
+      grid-column: 1 / span 12; } }
 
 .huge, h1 {
   color: #08605F; }
