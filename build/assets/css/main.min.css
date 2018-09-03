@@ -850,6 +850,13 @@ nav {
 
 .above_h2 {
   margin-bottom: 60px; }
+  @media only screen and (max-width: 425px) {
+    .above_h2 {
+      margin-bottom: 0; } }
+
+@media only screen and (max-width: 425px) {
+  .above_h2_m {
+    margin-bottom: 36px; } }
 
 .p_above_img {
   margin-bottom: 36px; }
