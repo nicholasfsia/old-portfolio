@@ -417,13 +417,15 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 20px; }
   @media only screen and (max-width: 680px) {
     .bigger, h3 {
-      font-size: 20px;
-      padding-bottom: 20px; } }
+      font-size: 20px; } }
 
 .big, h4 {
   color: #333;
   font-size: 22px;
-  line-height: 1.38; }
+  line-height: 1.38;
+  opacity: 0.8;
+  padding-bottom: 10px;
+  padding-top: 18px; }
   @media only screen and (max-width: 680px) {
     .big, h4 {
       font-size: 18px; } }
@@ -861,13 +863,10 @@ nav {
     .img_small_caption_right {
       grid-column: 1 / span 12; } }
 
-.huge, h1 {
+.c1 {
   color: #08605F; }
 
-.large, h2 {
-  color: #08605F; }
-
-.img_bg {
+.img_bg_1 {
   background: #08605F; }
 
 .ul1 li::before {
@@ -879,6 +878,25 @@ nav {
 .ul1_nested li::before {
   content: "○";
   color: #08605F;
+  padding-right: 20px;
+  font-size: 20px;
+  margin-left: 8px; }
+
+.c2 {
+  color: #177E89; }
+
+.img_bg_c2 {
+  background: #177E89; }
+
+.ul2 li::before {
+  content: "•";
+  color: #177E89;
+  padding-right: 20px;
+  font-size: 30px; }
+
+.ul2_nested li::before {
+  content: "○";
+  color: #177E89;
   padding-right: 20px;
   font-size: 20px;
   margin-left: 8px; }
